@@ -8,6 +8,7 @@ docker run --name postgres16.3_aula -e POSTGRES_USER=postgres
 
 - Sem database externo:
 ``` sql    
-docker run --name postgres16.3_aula -e POSTGRES_USER=postgres  -e POSTGRES_PASSWORD=postdba -d -p 5432:5432 postgres:16.3
+docker run --name postgres16.3_aula -e POSTGRES_USER=postgres
+ -e POSTGRES_PASSWORD=postdba -d -p 5432:5432 postgres:16.3
 ```
 
